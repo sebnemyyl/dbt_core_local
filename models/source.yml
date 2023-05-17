@@ -1,0 +1,10 @@
+
+version: 2
+
+sources:
+  - name: fivetran_test
+    tables:
+      - name: fivetran_test
+  - name: jira
+    tables:
+      - name: worklog

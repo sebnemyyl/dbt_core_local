@@ -1,0 +1,70 @@
+[0m18:18:19.557561 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1034b4a00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10470bbb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10470bd60>]}
+
+
+============================== 18:18:19.560037 | be9717e5-f510-4068-9020-8593641083d1 ==============================
+[0m18:18:19.560037 [info ] [MainThread]: Running with dbt=1.5.0
+[0m18:18:19.560329 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': '/Users/sebnemyayla/UDTL Dropbox/Sebnem Yayla/dbt/fivetran_dbt/logs', 'profiles_dir': '/Users/sebnemyayla/.dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m18:18:19.570555 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'be9717e5-f510-4068-9020-8593641083d1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104709de0>]}
+[0m18:18:19.570833 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m18:18:19.571118 [debug] [MainThread]: Command `dbt deps` succeeded at 18:18:19.571057 after 0.03 seconds
+[0m18:18:19.571267 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1034b4a00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104709de0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10470a6b0>]}
+[0m18:18:19.571411 [debug] [MainThread]: Flushing usage events
+[0m18:18:37.464623 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102acca00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103bf7cd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103bf7e80>]}
+
+
+============================== 18:18:37.466580 | 03169698-11ff-4c89-ab51-075dbf97f985 ==============================
+[0m18:18:37.466580 [info ] [MainThread]: Running with dbt=1.5.0
+[0m18:18:37.466887 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/sebnemyayla/.dbt', 'version_check': 'True', 'debug': 'False', 'log_path': '/Users/sebnemyayla/UDTL Dropbox/Sebnem Yayla/dbt/fivetran_dbt/logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m18:18:37.468602 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named 'fivetran'
+[0m18:18:37.468959 [debug] [MainThread]: Command `dbt run` failed at 18:18:37.468895 after 0.01 seconds
+[0m18:18:37.469105 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102acca00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103bf6e00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103bf7e80>]}
+[0m18:18:37.469252 [debug] [MainThread]: Flushing usage events
+[0m17:12:16.794314 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1071dca00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108307b20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108307fa0>]}
+
+
+============================== 17:12:16.797279 | 75f402b5-5ccb-4544-910e-7dcd25bfa1c7 ==============================
+[0m17:12:16.797279 [info ] [MainThread]: Running with dbt=1.5.0
+[0m17:12:16.797596 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': '/Users/sebnemyayla/UDTL Dropbox/Sebnem Yayla/dbt/fivetran_dbt/logs', 'profiles_dir': '/Users/sebnemyayla/.dbt', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m17:12:16.799358 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named 'fivetran'
+[0m17:12:16.799667 [debug] [MainThread]: Command `dbt run` failed at 17:12:16.799609 after 0.02 seconds
+[0m17:12:16.799813 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1071dca00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108307910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108307fa0>]}
+[0m17:12:16.799966 [debug] [MainThread]: Flushing usage events
+[0m22:48:33.595456 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106de0a00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107f0bb50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107f0bcd0>]}
+
+
+============================== 22:48:33.598038 | d8771229-1644-4c9d-904f-2c6fe83b79ae ==============================
+[0m22:48:33.598038 [info ] [MainThread]: Running with dbt=1.5.0
+[0m22:48:33.598357 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/sebnemyayla/.dbt', 'version_check': 'True', 'debug': 'False', 'log_path': '/Users/sebnemyayla/UDTL Dropbox/Sebnem Yayla/dbt/fivetran_dbt/logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m22:48:33.600098 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named 'fivetran'
+[0m22:48:33.600404 [debug] [MainThread]: Command `dbt run` failed at 22:48:33.600346 after 0.02 seconds
+[0m22:48:33.600550 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106de0a00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107f0ac50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107f0bcd0>]}
+[0m22:48:33.600692 [debug] [MainThread]: Flushing usage events
+[0m22:49:07.878836 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106e68a00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107f93b50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107f93cd0>]}
+
+
+============================== 22:49:07.880987 | 0631f509-bd6c-4c21-8d77-afb8cd640336 ==============================
+[0m22:49:07.880987 [info ] [MainThread]: Running with dbt=1.5.0
+[0m22:49:07.881284 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': '/Users/sebnemyayla/.dbt', 'log_path': '/Users/sebnemyayla/UDTL Dropbox/Sebnem Yayla/dbt/fivetran_dbt/logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m22:49:07.891456 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '0631f509-bd6c-4c21-8d77-afb8cd640336', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107f924d0>]}
+[0m22:49:07.891687 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m22:49:07.891962 [debug] [MainThread]: Command `dbt deps` succeeded at 22:49:07.891907 after 0.02 seconds
+[0m22:49:07.892101 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106e68a00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107f924d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107f92650>]}
+[0m22:49:07.892234 [debug] [MainThread]: Flushing usage events
+[0m22:50:07.743655 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1033fca00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104527c10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104527dc0>]}
+
+
+============================== 22:50:07.745672 | 47ed4e29-b583-419f-983f-3f21e478113e ==============================
+[0m22:50:07.745672 [info ] [MainThread]: Running with dbt=1.5.0
+[0m22:50:07.745953 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': '/Users/sebnemyayla/UDTL Dropbox/Sebnem Yayla/dbt/fivetran_dbt/logs', 'debug': 'False', 'profiles_dir': '/Users/sebnemyayla/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m22:50:07.747692 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named 'fivetran'
+[0m22:50:07.748002 [debug] [MainThread]: Command `dbt run` failed at 22:50:07.747946 after 0.01 seconds
+[0m22:50:07.748144 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1033fca00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1045240a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104527dc0>]}
+[0m22:50:07.748283 [debug] [MainThread]: Flushing usage events
