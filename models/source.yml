@@ -2,9 +2,9 @@
 version: 2
 
 sources:
-  - name: fivetran_test
+  - name: bigquery
+    schema: fivetran-385712
+    database: jira
     tables:
-      - name: fivetran_test
-  - name: jira
-    tables:
-      - name: worklog
+      - name: issue
+      - name: project
