@@ -68,3 +68,123 @@ Runtime Error
 [0m22:50:07.748002 [debug] [MainThread]: Command `dbt run` failed at 22:50:07.747946 after 0.01 seconds
 [0m22:50:07.748144 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1033fca00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1045240a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104527dc0>]}
 [0m22:50:07.748283 [debug] [MainThread]: Flushing usage events
+[0m14:35:11.988709 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104ae8a00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105c13c40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105c13df0>]}
+
+
+============================== 14:35:11.991318 | e512f369-cb81-4692-a5ae-dc906c485b49 ==============================
+[0m14:35:11.991318 [info ] [MainThread]: Running with dbt=1.5.0
+[0m14:35:11.991617 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/sebnemyayla/.dbt', 'debug': 'False', 'fail_fast': 'False', 'log_path': '/Users/sebnemyayla/UDTL Dropbox/Sebnem Yayla/dbt/dbt_core_local/logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m14:35:11.993360 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named 'my-bigquery-db'
+[0m14:35:11.993661 [debug] [MainThread]: Command `dbt run` failed at 14:35:11.993604 after 0.02 seconds
+[0m14:35:11.993808 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104ae8a00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105c11de0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105c13df0>]}
+[0m14:35:11.993946 [debug] [MainThread]: Flushing usage events
+[0m14:36:34.794990 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104e78a00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10610bc40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10610bdf0>]}
+
+
+============================== 14:36:34.797533 | d9e87311-fd15-4d42-9c4d-46d47c063cc0 ==============================
+[0m14:36:34.797533 [info ] [MainThread]: Running with dbt=1.5.0
+[0m14:36:34.797831 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/sebnemyayla/.dbt', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': '/Users/sebnemyayla/UDTL Dropbox/Sebnem Yayla/dbt/dbt_core_local/logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m14:36:34.799613 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named 'profile_bigquery2'
+[0m14:36:34.799920 [debug] [MainThread]: Command `dbt run` failed at 14:36:34.799863 after 0.02 seconds
+[0m14:36:34.800068 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104e78a00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10610ada0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10610bdf0>]}
+[0m14:36:34.800207 [debug] [MainThread]: Flushing usage events
+[0m14:37:13.151253 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1048cca00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1059f7be0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1059f7d90>]}
+
+
+============================== 14:37:13.153450 | 158c467f-be54-4351-a1a8-fec5147eea53 ==============================
+[0m14:37:13.153450 [info ] [MainThread]: Running with dbt=1.5.0
+[0m14:37:13.153742 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': '/Users/sebnemyayla/.dbt', 'log_path': '/Users/sebnemyayla/UDTL Dropbox/Sebnem Yayla/dbt/dbt_core_local/logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m14:37:13.155561 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named 'my-bigquery-db2'
+[0m14:37:13.155879 [debug] [MainThread]: Command `dbt run` failed at 14:37:13.155824 after 0.01 seconds
+[0m14:37:13.156019 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1048cca00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1059f5d80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1059f7d90>]}
+[0m14:37:13.156157 [debug] [MainThread]: Flushing usage events
+[0m14:38:33.850878 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105364a00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10648fc40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10648fdf0>]}
+
+
+============================== 14:38:33.853423 | ef7bf28b-3a16-4ab9-bc73-7c6711b9102f ==============================
+[0m14:38:33.853423 [info ] [MainThread]: Running with dbt=1.5.0
+[0m14:38:33.853709 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': '/Users/sebnemyayla/.dbt', 'log_path': '/Users/sebnemyayla/UDTL Dropbox/Sebnem Yayla/dbt/dbt_core_local/logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m14:38:33.855455 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named 'my-bigquery-db2'
+[0m14:38:33.855752 [debug] [MainThread]: Command `dbt build` failed at 14:38:33.855696 after 0.02 seconds
+[0m14:38:33.855899 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105364a00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10648eda0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10648fdf0>]}
+[0m14:38:33.856041 [debug] [MainThread]: Flushing usage events
+[0m14:38:40.164148 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103310a00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10443bbb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10443bd60>]}
+
+
+============================== 14:38:40.166131 | 23776b1a-fee9-47fb-b5b8-d30cc18f6bd7 ==============================
+[0m14:38:40.166131 [info ] [MainThread]: Running with dbt=1.5.0
+[0m14:38:40.166420 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/sebnemyayla/.dbt', 'version_check': 'True', 'warn_error': 'None', 'log_path': '/Users/sebnemyayla/UDTL Dropbox/Sebnem Yayla/dbt/dbt_core_local/logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m14:38:40.176616 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '23776b1a-fee9-47fb-b5b8-d30cc18f6bd7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10443b730>]}
+[0m14:38:40.176849 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m14:38:40.177132 [debug] [MainThread]: Command `dbt deps` succeeded at 14:38:40.177076 after 0.02 seconds
+[0m14:38:40.177270 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103310a00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10443b730>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10443a500>]}
+[0m14:38:40.177403 [debug] [MainThread]: Flushing usage events
+[0m14:57:51.881389 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104f44a00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10606fc70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10606fe20>]}
+
+
+============================== 14:57:51.883990 | 44a4c6d0-b0b6-4397-a53f-b4577d392ab4 ==============================
+[0m14:57:51.883990 [info ] [MainThread]: Running with dbt=1.5.0
+[0m14:57:51.884297 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': '/Users/sebnemyayla/.dbt', 'log_path': '/Users/sebnemyayla/UDTL Dropbox/Sebnem Yayla/dbt/dbt_core_local/logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m14:57:51.886044 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named 'my-bigquery-db2'
+[0m14:57:51.886352 [debug] [MainThread]: Command `dbt run` failed at 14:57:51.886294 after 0.02 seconds
+[0m14:57:51.886499 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104f44a00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10606c100>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10606fe20>]}
+[0m14:57:51.886636 [debug] [MainThread]: Flushing usage events
+[0m14:59:07.803212 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1049f4a00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105b1fb20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105b1ffa0>]}
+
+
+============================== 14:59:07.805207 | 9bcf347c-5075-4b10-aaae-979b590601ac ==============================
+[0m14:59:07.805207 [info ] [MainThread]: Running with dbt=1.5.0
+[0m14:59:07.805493 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/sebnemyayla/.dbt', 'version_check': 'True', 'warn_error': 'None', 'log_path': '/Users/sebnemyayla/UDTL Dropbox/Sebnem Yayla/dbt/dbt_core_local/logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m14:59:07.805738 [warn ] [MainThread]: [OpenCommand]: Unable to parse dict {'open_cmd': 'open', 'profiles_dir': PosixPath('/Users/sebnemyayla/.dbt')}
+[0m14:59:07.805880 [info ] [MainThread]: To view your profiles.yml file, run:
+
+ 
+[0m14:59:07.806160 [debug] [MainThread]: Command `dbt debug` succeeded at 14:59:07.806101 after 0.01 seconds
+[0m14:59:07.806299 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1049f4a00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105b1fb20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105b1c070>]}
+[0m14:59:07.806438 [debug] [MainThread]: Flushing usage events
+[0m16:14:47.538624 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102b9ca00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103cc7be0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103cc7d90>]}
+
+
+============================== 16:14:47.541504 | f226ba48-0cde-45a6-a1f0-41ca579c711e ==============================
+[0m16:14:47.541504 [info ] [MainThread]: Running with dbt=1.5.0
+[0m16:14:47.541827 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': '/Users/sebnemyayla/UDTL Dropbox/Sebnem Yayla/dbt/dbt_core_local/logs', 'fail_fast': 'False', 'profiles_dir': '/Users/sebnemyayla/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m16:14:47.543604 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named 'my-bigquery-db2'
+[0m16:14:47.543910 [debug] [MainThread]: Command `dbt run` failed at 16:14:47.543852 after 0.02 seconds
+[0m16:14:47.544064 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102b9ca00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103cc4070>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103cc7d90>]}
+[0m16:14:47.544206 [debug] [MainThread]: Flushing usage events
+[0m16:15:48.919924 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1073f4a00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10851fc40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10851fdf0>]}
+
+
+============================== 16:15:48.922857 | 6114bedf-d27b-4dde-9000-9a7a7edecb77 ==============================
+[0m16:15:48.922857 [info ] [MainThread]: Running with dbt=1.5.0
+[0m16:15:48.923180 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/sebnemyayla/.dbt', 'version_check': 'True', 'warn_error': 'None', 'log_path': '/Users/sebnemyayla/UDTL Dropbox/Sebnem Yayla/dbt/dbt_core_local/logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m16:15:48.924954 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named 'my-bigquery-db2'
+[0m16:15:48.925275 [debug] [MainThread]: Command `dbt run` failed at 16:15:48.925214 after 0.02 seconds
+[0m16:15:48.925422 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1073f4a00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10851eda0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10851fdf0>]}
+[0m16:15:48.925560 [debug] [MainThread]: Flushing usage events
+[0m16:16:27.645642 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104fbca00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1060e7bb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1060e7d60>]}
+
+
+============================== 16:16:27.648200 | 062dd16e-127d-417b-aa6f-b73eb78a1eaf ==============================
+[0m16:16:27.648200 [info ] [MainThread]: Running with dbt=1.5.0
+[0m16:16:27.648494 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': '/Users/sebnemyayla/UDTL Dropbox/Sebnem Yayla/dbt/dbt_core_local/logs', 'profiles_dir': '/Users/sebnemyayla/.dbt', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m16:16:27.650236 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named 'my-bigquery-db2'
+[0m16:16:27.650581 [debug] [MainThread]: Command `dbt run` failed at 16:16:27.650512 after 0.02 seconds
+[0m16:16:27.650727 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104fbca00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1060e4040>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1060e7d60>]}
+[0m16:16:27.650876 [debug] [MainThread]: Flushing usage events
